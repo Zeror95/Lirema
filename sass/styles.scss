@@ -44,6 +44,8 @@ body{
         margin: 0%;
         padding-top: 15px;
         padding-left: 30px;
+        padding-bottom: 9px;
+        font-weight: lighter;
     }
     p{
         font-family: $fonts;
@@ -56,6 +58,7 @@ body{
 }
 .top-date{
     height: 100%;
+    width: 100%;
     h3{
         font-family: $fontpro;
         font-size: 28px;
@@ -63,21 +66,34 @@ body{
         margin: 0%;
         padding-top: 15px;
         padding-left: 30px;
+        padding-bottom: 9px; 
+        font-weight: lighter;
     }
-    img{
-        width: 19.5px;
-        height: 19.5px;
-        padding-left: 30px;
-        opacity: 0.5;
-    }
+
     p{
         font-family: $fonts;
         font-size: 13px;
-        color: $gray;
+        color: $blue;
         width: 229px;
         margin: 0%;
         padding-left: 30px;
-
+        img{
+            width: 19.5px;
+            height: 19.5px;
+            //padding-left: 30px;
+            opacity: 0.5;
+            color: #15498F;
+            float: left;
+            padding-right: 7.5px;    
+        }
+    }
+    .close{
+        width: 16px;
+        height: 16px;
+        opacity: 0.5;
+        display: flex;
+        float: right;
+        clear: both;
     }    
 }
 }

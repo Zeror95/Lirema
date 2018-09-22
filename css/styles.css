@@ -4,11 +4,12 @@ body { background-color: #00000033; }
 
 .top { width: 100%; height: 112px; display: flex; -webkit-box-shadow: 0 2px 8px #262626; -moz-box-shadow: 0 2px 8px #262626; box-shadow: 0 2px 8px #262626; }
 .top .top-clinic { width: 275.5px; height: 100%; border-right: 1px solid #dddddd; }
-.top .top-clinic h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; }
+.top .top-clinic h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
 .top .top-clinic p { font-family: "Open Sans"; font-size: 13px; color: #333333; width: 229px; margin: 0%; padding-left: 30px; }
-.top .top-date { height: 100%; }
-.top .top-date h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; }
-.top .top-date img { width: 19.5px; height: 19.5px; padding-left: 30px; opacity: 0.5; }
-.top .top-date p { font-family: "Open Sans"; font-size: 13px; color: #333333; width: 229px; margin: 0%; padding-left: 30px; }
+.top .top-date { height: 100%; width: 100%; }
+.top .top-date h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
+.top .top-date p { font-family: "Open Sans"; font-size: 13px; color: #15498F; width: 229px; margin: 0%; padding-left: 30px; }
+.top .top-date p img { width: 19.5px; height: 19.5px; opacity: 0.5; color: #15498F; float: left; padding-right: 7.5px; }
+.top .top-date .close { width: 16px; height: 16px; opacity: 0.5; display: flex; float: right; clear: both; }
 
 /*# sourceMappingURL=styles.css.map */
