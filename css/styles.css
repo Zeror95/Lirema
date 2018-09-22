@@ -1,15 +1,20 @@
-body { background-color: #00000033; }
+body { background-color: #00000033; font-size: 13px; }
 
 #light-box { width: 650px; height: 454px; background-color: #ffffff; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-box-shadow: 0 0 24px #262626; -moz-box-shadow: 0 0 24px #262626; box-shadow: 0 0 24px #262626; }
-
-.top { width: 100%; height: 112px; display: flex; -webkit-box-shadow: 0 2px 8px #262626; -moz-box-shadow: 0 2px 8px #262626; box-shadow: 0 2px 8px #262626; }
-.top .top-clinic { width: 275.5px; height: 100%; border-right: 1px solid #dddddd; }
-.top .top-clinic h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
-.top .top-clinic p { font-family: "Open Sans"; font-size: 13px; color: #333333; width: 229px; margin: 0%; padding-left: 30px; }
-.top .top-date { height: 100%; width: 100%; }
-.top .top-date h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
-.top .top-date p { font-family: "Open Sans"; font-size: 13px; color: #15498F; width: 229px; margin: 0%; padding-left: 30px; }
-.top .top-date p img { width: 19.5px; height: 19.5px; opacity: 0.5; color: #15498F; float: left; padding-right: 7.5px; }
-.top .top-date .close { width: 16px; height: 16px; opacity: 0.5; display: flex; float: right; clear: both; }
+#light-box .top { width: 100%; height: 25%; display: flex; -webkit-box-shadow: 0 2px 8px #262626; -moz-box-shadow: 0 2px 8px #262626; box-shadow: 0 2px 8px #262626; }
+#light-box .top .top-clinic { width: 275.5px; height: 100%; border-right: 1px solid #dddddd; }
+#light-box .top .top-clinic h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
+#light-box .top .top-clinic p { font-family: "Open Sans"; color: #333333; width: 229px; margin: 0%; padding-left: 30px; }
+#light-box .top .top-date { height: 100%; width: 374.5px; }
+#light-box .top .top-date h3 { font-family: Sofia Pro; font-size: 28px; color: #15498F; margin: 0%; padding-top: 15px; padding-left: 30px; padding-bottom: 9px; font-weight: lighter; }
+#light-box .top .top-date p { font-family: "Open Sans"; color: #15498F; width: 229px; margin: 0%; padding-left: 30px; }
+#light-box .top .top-date p img { width: 19.5px; height: 19.5px; opacity: 0.5; color: #15498F; float: left; padding-right: 7.5px; }
+#light-box .top .top-date .close { width: 20px; height: 20px; opacity: 0.5; display: flex; float: right; clear: left; padding-top: 23px; padding-right: 23px; }
+#light-box .left { width: 275.5px; height: 75%; border-right: 1px solid #dddddd; color: #333333; }
+#light-box li { list-style: none; border-bottom: 1px solid #dddddd; height: 25%; }
+#light-box li .location { font-weight: bold; font-size: 16px; color: #15498F; padding-top: 10%; padding-left: 30px; }
+#light-box li .location .fa { padding-right: 16px; }
+#light-box li p { margin: 0; padding-left: 55px; }
+#light-box li:last-child { border-bottom: none; }
 
 /*# sourceMappingURL=styles.css.map */
