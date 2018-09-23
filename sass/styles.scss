@@ -201,12 +201,13 @@ body {
                 text-align: center;
                 padding: 10px;
                 font-size: 13px;
-
-                &:active {
+                cursor: pointer;
+            }
+                .active {
                     background-color: $blue;
                     color: #ffffff;
                 }
-            }
+            
         }
     }
 }
