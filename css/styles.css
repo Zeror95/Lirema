@@ -11,8 +11,8 @@ body { background-color: #00000033; font-size: 13px; }
 #light-box .top .top-date .close { width: 20px; height: 20px; opacity: 0.5; display: flex; float: right; clear: left; padding-top: 23px; padding-right: 23px; }
 #light-box .left { width: 42%; height: 75%; border-right: 1px solid #dddddd; color: #333333; position: inherit; }
 #light-box .left li { list-style: none; border-bottom: 1px solid #dddddd; height: 25%; }
-#light-box .left li .location { font-weight: bold; font-size: 16px; color: #15498F; padding-top: 9%; padding-left: 30px; }
-#light-box .left li .location .fa { padding-right: 16px; }
+#light-box .left li .location { font-weight: bold; font-size: 16px; color: #333333; padding-top: 9%; padding-left: 30px; }
+#light-box .left li .location .fa { padding-right: 16px; color: #15498F; }
 #light-box .left li p { margin: 0; padding-left: 55px; font-family: "Open Sans", sans-serif; }
 #light-box .left li:last-child { border-bottom: none; }
 #light-box .calendar { width: 58%; height: 75%; float: right; color: #333333; }

@@ -109,12 +109,13 @@ body {
             .location {
                 font-weight: bold;
                 font-size: 16px;
-                color: $blue;
+                color: $gray;
                 padding-top: 9%;
                 padding-left: 30px;
 
                 .fa {
                     padding-right: 16px;
+                    color: $blue;
                 }
             }
 
